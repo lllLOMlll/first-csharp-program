@@ -232,7 +232,7 @@ namespace MyFirstCSharpProgram
             //{
             //    Console.WriteLine("This is always executed");
             //}
-    
+
             //Console.ReadLine();
 
 
@@ -255,12 +255,24 @@ namespace MyFirstCSharpProgram
 
             // *********************************************************************
             // CONSTRUCTORS
-            Book book1 = new Book("Harry Potter", "JK Rowling", 400);
-        
-            Book book2 = new Book("Lord of the Rings", "Tolkien", 700);
-    
-            Console.WriteLine(book1.title);
-            Console.WriteLine(book2.author);
+            //Book book1 = new Book("Harry Potter", "JK Rowling", 400);
+
+            //Book book2 = new Book("Lord of the Rings", "Tolkien", 700);
+
+            //Console.WriteLine(book1.title);
+            //Console.WriteLine(book2.author);
+
+            //book2.title = "The Hobbit";
+
+            //Console.ReadLine();
+
+            // *********************************************************************
+            // OBJECT METHODS
+            Student student1 = new Student("Jim", "Business", 2.8);
+            Student student2 = new Student("Pam", "Art", 3.6);
+
+            Console.WriteLine(student1.HasHoners());
+            Console.WriteLine(student2.HasHoners());
 
             Console.ReadLine();
 
