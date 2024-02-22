@@ -1,0 +1,7 @@
+C:\Users\louis\source\repos\C#\Tutorial\MyFirstCSharpProgram\obj\Debug\MyFirstCSharpProgram.csproj.AssemblyReference.cache
+C:\Users\louis\source\repos\C#\Tutorial\MyFirstCSharpProgram\obj\Debug\MyFirstCSharpProgram.csproj.CoreCompileInputs.cache
+C:\Users\louis\source\repos\C#\Tutorial\MyFirstCSharpProgram\bin\Debug\MyFirstCSharpProgram.exe.config
+C:\Users\louis\source\repos\C#\Tutorial\MyFirstCSharpProgram\bin\Debug\MyFirstCSharpProgram.exe
+C:\Users\louis\source\repos\C#\Tutorial\MyFirstCSharpProgram\bin\Debug\MyFirstCSharpProgram.pdb
+C:\Users\louis\source\repos\C#\Tutorial\MyFirstCSharpProgram\obj\Debug\MyFirstCSharpProgram.exe
+C:\Users\louis\source\repos\C#\Tutorial\MyFirstCSharpProgram\obj\Debug\MyFirstCSharpProgram.pdb
