@@ -282,15 +282,28 @@ namespace MyFirstCSharpProgram
 
             // *********************************************************************
             // GETTERS AND SETTERS
-            Movie avengers = new Movie("The Avengers", "Joss Whedon", "Dog" );
-            Movie shrek = new Movie("Shrek", "Adam ", "PG");
+            //Movie avengers = new Movie("The Avengers", "Joss Whedon", "Dog" );
+            //Movie shrek = new Movie("Shrek", "Adam ", "PG");
 
-            Console.WriteLine(avengers.Rating);
-            shrek.Rating = "R";
-            Console.WriteLine(shrek.Rating);
+            //Console.WriteLine(avengers.Rating);
+            //shrek.Rating = "R";
+            //Console.WriteLine(shrek.Rating);
 
+            //Console.ReadLine();
+
+
+
+            // *********************************************************************
+            // STATIC CLASS ATTRIBUTES
+            Song holiday = new Song("Holiday", "Green Day", 200);
+            // Console.WriteLine(Song.songCount);
+            Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
+            // Console.WriteLine(Song.songCount);
+            Console.WriteLine(holiday.getSongCount());
+            Console.WriteLine(Song.songCount);
+        
+            
             Console.ReadLine();
-
 
 
 
