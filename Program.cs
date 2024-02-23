@@ -266,15 +266,31 @@ namespace MyFirstCSharpProgram
 
             //Console.ReadLine();
 
+
+
             // *********************************************************************
             // OBJECT METHODS
-            Student student1 = new Student("Jim", "Business", 2.8);
-            Student student2 = new Student("Pam", "Art", 3.6);
+            //Student student1 = new Student("Jim", "Business", 2.8);
+            //Student student2 = new Student("Pam", "Art", 3.6);
 
-            Console.WriteLine(student1.HasHoners());
-            Console.WriteLine(student2.HasHoners());
+            //Console.WriteLine(student1.HasHoners());
+            //Console.WriteLine(student2.HasHoners());
+
+            //Console.ReadLine();
+
+
+
+            // *********************************************************************
+            // GETTERS AND SETTERS
+            Movie avengers = new Movie("The Avengers", "Joss Whedon", "Dog" );
+            Movie shrek = new Movie("Shrek", "Adam ", "PG");
+
+            Console.WriteLine(avengers.Rating);
+            shrek.Rating = "R";
+            Console.WriteLine(shrek.Rating);
 
             Console.ReadLine();
+
 
 
 
