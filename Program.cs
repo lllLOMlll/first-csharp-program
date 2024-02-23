@@ -309,7 +309,23 @@ namespace MyFirstCSharpProgram
 
             // *********************************************************************
             // STATIC METHODS AND CLASSES
-            UsefulTools.SayHi("Louis");
+
+            //UsefulTools.SayHi("Louis");
+            //Console.ReadLine();
+
+
+            // *********************************************************************
+            // INHERITANCE
+            Chef chef = new Chef();
+            chef.MakeChicken();
+            chef.MakeSpecialDish();
+           
+
+            ItalianChef italianChef = new ItalianChef();
+            italianChef.MakeChicken();
+            italianChef.MakePasta();
+            italianChef.MakeSpecialDish();
+
             Console.ReadLine();
 
 
